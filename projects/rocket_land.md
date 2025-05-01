@@ -1,5 +1,5 @@
 ---
-layout: page
+layout: post
 title: Rocket Landing Controller
 permalink: /projects/rocket-landing
 ---
