@@ -24,6 +24,11 @@ navbar-links:
   Projects: "projects"
   About Me: "aboutme"
 
+collections:
+  projects:
+    output: true
+    permalink: /projects/:path/
+
 ################
 # --- Logo --- #
 ################
