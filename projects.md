@@ -1,9 +1,13 @@
 ---
 layout: page
-title: Projects
+title: "Projects"
 permalink: /projects/
 ---
 
-Here are some of my featured projects:
+## All Projects
 
-- [Rocket Landing Controller](/projects/rocket-landing)
+{% for project in site.projects %}
+### [{{ project.title }}]({{ project.url }})
+![Image]({{ project.image }})  
+{{ project.excerpt | markdownify }}
+{% endfor %}
