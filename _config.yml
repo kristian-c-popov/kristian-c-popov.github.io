@@ -18,10 +18,15 @@ plugins:                                         # default GitHub‑Pages plugin
 ###############################################################################
 navbar-links:
   Home: "index"
-  Projects:                                      # dropdown + click
-    Projects: "projects"                         # main “All Projects” link
-    Rocket MPC Demo: "projects/rocket_land"
+
+  Projects:                 # top‑level dropdown label
+    - title: "All Projects" # 1️⃣ first submenu item – becomes the link you click
+      url:   "projects"     #     (acts as “/projects”)
+    - title: "Rocket MPC"   # 2️⃣ any other project pages
+      url:   "projects/rocket_land"
+
   About Me: "aboutme"
+
 
 ###############################################################################
 # Collections
