@@ -20,10 +20,8 @@ navbar-links:
   Home: "index"
 
   Projects:                 # top‑level dropdown label
-    - title: "All Projects" # 1️⃣ first submenu item – becomes the link you click
-      url:   "projects"     #     (acts as “/projects”)
-    - title: "Rocket MPC"   # 2️⃣ any other project pages
-      url:   "projects/rocket_land"
+    - Projects: "projects"
+    - tvc: "_projects/rocket_land"
 
   About Me: "aboutme"
 
