@@ -1,0 +1,56 @@
+###############################################################################
+# Site basics
+###############################################################################
+title: "Kristian Popov"
+author: "Kristian Popov"
+
+###############################################################################
+# Theme & plugins
+###############################################################################
+remote_theme: daattali/beautiful-jekyll          # ← Beautiful Jekyll
+plugins:                                         # default GitHub‑Pages plugins
+  - jekyll-paginate
+  - jekyll-sitemap
+  - jekyll-remote-theme
+
+###############################################################################
+# Navbar
+###############################################################################
+navbar-links:
+  Home: "index"
+  Projects:                                      # dropdown + click
+    Projects: "projects"                         # main “All Projects” link
+    Rocket MPC Demo: "projects/rocket_land"
+  About Me: "aboutme"
+
+###############################################################################
+# Collections
+###############################################################################
+collections:
+  projects:
+    output: true
+    permalink: /projects/:path/
+
+###############################################################################
+# Visual tweaks (optional – adjust colours or remove)
+###############################################################################
+page-col: "#FFFFFF"
+text-col: "#404040"
+link-col: "#008AFF"
+hover-col: "#0085A1"
+navbar-col: "#EAEAEA"
+navbar-text-col: "#404040"
+navbar-border-col: "#DDDDDD"
+footer-col: "#EAEAEA"
+footer-text-col: "#777777"
+footer-link-col: "#404040"
+footer-hover-col: "#0085A1"
+
+###############################################################################
+# Misc
+###############################################################################
+markdown: kramdown
+highlighter: rouge
+permalink: /:year-:month-:day-:title/
+paginate: 5
+timezone: America/Toronto         # change if needed
