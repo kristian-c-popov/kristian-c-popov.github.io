@@ -21,7 +21,7 @@ navbar-links:
 
   Projects:                 # top‑level dropdown label
     - Projects: "projects"
-    - tvc: "_projects/rocket_land"
+    - tvc: "projects/rocket_land"
 
   About Me: "aboutme"
 
