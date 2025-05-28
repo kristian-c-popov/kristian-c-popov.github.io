@@ -21,7 +21,9 @@ author: Kristian Popov
 
 navbar-links:
   Home: "index"
-  Projects: "projects"
+  Projects:
+    All Projects: "projects"
+    Rocket MPC: "projects/rocket_land"
   About Me: "aboutme"
 
 collections:
